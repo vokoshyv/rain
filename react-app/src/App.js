@@ -7,16 +7,19 @@ import React from 'react';
 /*
   This one here can have state
  */
-// class App extends React.Component {
-//   render(){
-//     return <h1>Hello World</h1>
-//   }
-// }
+class App extends React.Component {
+  render(){
+    return (
+      <div>
+        <h1>Hello World</h1> <b>Bold</b>
+      </div>
+    )
+  }
+}
 
-/*
-  This one here cannot have state
-  Don't think I'll use this one as often
- */
-const App = () => <h1>Hello Stateless</h1>
+// 
+//   This one here cannot have state
+//   Don't think I'll use this one as often
+// const App = () => <h1>Hello Stateless</h1>
 
 export default App;
